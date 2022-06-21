@@ -22,7 +22,7 @@ spec:
     repository: jx-quickstart
   - key: staging
   ingress:
-    domain: ""
+    domain: 192.168.29.42.nip.io
     ignoreLoadBalancer: true
     kind: ingress
     namespaceSubDomain: .jx.
